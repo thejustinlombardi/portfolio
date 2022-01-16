@@ -2,12 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 import "./index.css";
-import Welcome from "./components/Welcome/Welcome";
+import App from "./App";
 
 ReactDOM.render(
 	<React.StrictMode>
 		<Router>
-			<Welcome />
+			<App />
 		</Router>
 	</React.StrictMode>,
 	document.getElementById("root")
