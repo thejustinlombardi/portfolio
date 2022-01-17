@@ -2,6 +2,12 @@
 	box-sizing: border-box;
 }
 
+html {
+	background-color: rgba(255, 5, 0, 100%);
+
+	background-repeat: no-repeat;
+}
+
 img {
 	object-fit: fill;
 	width: 100%;
@@ -9,12 +15,12 @@ img {
 	border-radius: 2px;
 }
 h1 {
-	font-size: 0.8rem;
-	letter-spacing: 0.3rem;
-	font-family: "Caesar Dressing", cursive;
+	font-size: 1.4rem;
+	letter-spacing: 0.2rem;
+	font-family: "Red Rose", cursive;
 }
 h2 {
-	font-size: 0.75rem;
+	font-size: 0.85rem;
 	font-family: "Red Rose", cursive;
 }
 h1,
@@ -22,16 +28,13 @@ h2 {
 	color: rgba(247, 210, 16, 100%);
 }
 .welcome-container {
-	background-image: linear-gradient(
-		rgba(200, 39, 38, 100%),
-		rgba(255, 5, 0, 100%)
-	);
 	display: grid;
 	grid-gap: 5px;
 	grid-template-columns: repeat(5, 1fr);
-	grid-template-rows: repeat(2, 40px) 40px 50px repeat(3, 0.8fr) 40px;
+	grid-template-rows: repeat(2, 0.2fr) 30px 50px repeat(3, 0.55fr) 10px;
 	border: 3px solid black;
-	min-height: 740px;
+	height: 100vh;
+	margin: 5px;
 }
 
 .start-reading,
@@ -50,14 +53,14 @@ h2 {
 	border: 2px solid black;
 }
 .welcome-title {
-	grid-row: 1 / 3;
+	grid-row: 1 / 2;
 	grid-column: 2 / 5;
 	background-color: blue;
-	line-height: 1rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
 }
 
 .welcome-subtitle {
@@ -72,7 +75,7 @@ h2 {
 }
 
 .welcome-batman {
-	grid-row: 1 / 3;
+	grid-row: 1 / 2;
 	grid-column: 1;
 }
 
@@ -90,7 +93,7 @@ h2 {
 	grid-column: 1;
 }
 .welcome-bazinga {
-	grid-row: 1 / 3;
+	grid-row: 1 / 2;
 	grid-column: 5;
 }
 .vol-div {
@@ -111,12 +114,12 @@ h2 {
 }
 
 .cents-div {
-	grid-row: 3;
+	grid-row: 2;
 	grid-column: 1;
 }
 
 .date-div {
-	grid-row: 3;
+	grid-row: 2;
 	grid-column: 5;
 }
 
@@ -164,28 +167,20 @@ h2 {
 @keyframes background-animation {
 	0% {
 		background-color: white;
-		box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0%);
 	}
 	35% {
 		background-color: lightgreen;
-		box-shadow: 5px 5px 5px 5px rgba(139, 237, 142, 70%);
 	}
 	65% {
 		background-color: lightgreen;
-		box-shadow: 5px 5px 5px 5px rgba(139, 237, 142, 70%);
 	}
 	100% {
 		background-color: white;
-		box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0%);
 	}
 }
 
 @media (min-width: 700px) {
 	.welcome-container {
-		background-image: linear-gradient(
-			rgba(200, 39, 38, 100%),
-			rgba(255, 5, 0, 100%)
-		);
 		display: grid;
 		grid-gap: 5px;
 		grid-template-columns: repeat(5, 0.5fr);
@@ -197,7 +192,7 @@ h2 {
 	h1 {
 		font-size: 1.6rem;
 		letter-spacing: 0.3rem;
-		font-family: "Caesar Dressing", cursive;
+		font-family: "Red Rose", cursive;
 	}
 	h2 {
 		font-size: 1.4rem;
