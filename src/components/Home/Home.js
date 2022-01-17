@@ -1,12 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
+import HomeResults from "./HomeResults";
 
 import "./Home.css";
 
 function Home(props) {
 	return (
 		<>
-			<div className="home-container">
+			<header className="home-container">
 				<div className="home-title">
 					<h2>ORIGINS OF</h2>
 					<h1>JUSTIN C LOMBARDI</h1>
@@ -46,51 +47,13 @@ function Home(props) {
 				<div className="home-bazinga">
 					<img src="https://i.imgur.com/KpX5DLz.jpg?1" alt="justin-lombardi" />
 				</div>
-
-				<Link to={`/home/about`} className="issues-div about-div">
-					<img
-						className="card-img"
-						src="https://i.imgur.com/fVhD4Lf.jpg"
-						alt="justin-lombardi"
-					/>
-					<h2>Issue #01</h2>
-					<h2>About Me</h2>
-				</Link>
-
-				<Link to={`/home/projects`} className="issues-div projects-div">
-					<img
-						className="card-img"
-						src="https://i.imgur.com/fVhD4Lf.jpg"
-						alt="justin-lombardi"
-					/>
-					<h2>Issue #02</h2>
-					<h2>Projects</h2>
-				</Link>
-
-				<Link to={`/home/resume`} className="issues-div resume-div">
-					<img
-						className="card-img"
-						src="https://i.imgur.com/fVhD4Lf.jpg"
-						alt="justin-lombardi"
-					/>
-					<h2>Issue #03</h2>
-					<h2>Skills</h2>
-				</Link>
-
-				<Link to={`/home/contact`} className="issues-div contact-div">
-					<img
-						className="card-img"
-						src="https://i.imgur.com/fVhD4Lf.jpg"
-						alt="justin-lombardi"
-					/>
-					<h2>Issue #04</h2>
-					<h2>Resume</h2>
-				</Link>
-
+			</header>
+			<HomeResults />
+			<footer>
 				<div className="vol-div">
 					<h2>Vol. 1</h2>
 				</div>
-			</div>
+			</footer>
 		</>
 	);
 }

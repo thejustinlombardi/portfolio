@@ -10,7 +10,7 @@ import Resume from "./components/Resume/Resume";
 
 function App(props) {
 	return (
-		<div>
+		<div className="app-container">
 			<Routes>
 				<Route path="/" element={<Welcome />} />
 				<Route path="/home" element={<Home />} />
