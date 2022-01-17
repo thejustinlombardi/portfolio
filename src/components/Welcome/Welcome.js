@@ -5,7 +5,7 @@ import "./Welcome.css";
 function Welcome() {
 	return (
 		<main className="welcome-container">
-			<Link to="/Home" className="start-reading">
+			<Link to="/home" className="start-reading">
 				<div>Start Reading Here!</div>
 			</Link>
 
@@ -40,8 +40,13 @@ function Welcome() {
 			<div className="welcome-subtitle">
 				<h2>Experience the adventures of a new Super Developer!</h2>
 			</div>
+			<div className="cents-div">FREE EDITION</div>
+			<div className="date-div">Apr 1993</div>
 			<div className="welcome-batman">
 				<img src="https://i.imgur.com/nDqzRJy.jpg" alt="justin-lombardi" />
+			</div>
+			<div className="welcome-bazinga">
+				<img src="https://i.imgur.com/KpX5DLz.jpg?1" alt="justin-lombardi" />
 			</div>
 			<div className="welcome-about">
 				<img src="https://i.imgur.com/fVhD4Lf.jpg" alt="justin-lombardi" />
@@ -52,20 +57,16 @@ function Welcome() {
 			<div className="welcome-apt">
 				<img src="https://i.imgur.com/98daJOW.jpg" alt="justin-lombardi" />
 			</div>
-			<div className="welcome-bazinga">
-				<img src="https://i.imgur.com/KpX5DLz.jpg?1" alt="justin-lombardi" />
-			</div>
-			<div className="vol-div">
-				<h2>Vol. 1</h2>
-			</div>
+
 			<div className="project2-div">
 				<img src="https://i.imgur.com/mfL1nF8.jpg" alt="project-screenshot" />
 			</div>
 			<div className="project1-div">
 				<img src="https://i.imgur.com/JRURVpr.png" alt="project-screenshot" />
 			</div>
-			<div className="cents-div">FREE EDITION</div>
-			<div className="date-div">Apr 1993</div>
+			<div className="vol-div">
+				<h2>Vol. 1</h2>
+			</div>
 		</main>
 	);
 }
