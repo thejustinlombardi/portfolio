@@ -12,7 +12,7 @@ function HomeResults(props) {
 						alt="justin-lombardi"
 					/>
 					<h2>Issue #01</h2>
-					<h2>About Me</h2>
+					<h2>About</h2>
 				</Link>
 
 				<Link to={`/home/projects`} className="issues-div projects-div">

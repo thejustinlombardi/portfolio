@@ -49,6 +49,7 @@ function Home(props) {
 				</div>
 			</header>
 			<HomeResults />
+
 			<footer>
 				<div className="vol-div">
 					<h2>Vol. 1</h2>
