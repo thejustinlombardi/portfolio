@@ -2,20 +2,27 @@
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	margin: 10px;
+	justify-content: center;
 }
 .resume-card {
 	object-fit: fill;
-	width: 100%;
+	width: 80%;
 	height: 100%;
+	margin: 10px 0px;
 	border: 2px solid black;
+	border-radius: 5px;
 }
 
 .resume-icons {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
-	width: 10%;
+	width: 80%;
 	height: 10%;
-	margin: 10px;
+}
+
+.resume-titles {
+	color: rgba(247, 210, 16, 100%);
+	font-size: 0.85rem;
+	font-family: "Red Rose", cursive;
+	font-weight: 700;
 }

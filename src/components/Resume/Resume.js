@@ -49,18 +49,19 @@ function Resume(props) {
 					<img src="https://i.imgur.com/KpX5DLz.jpg?1" alt="justin-lombardi" />
 				</div>
 			</header>
-			<main className="details-container resume-container">
+			<main className="resume-container">
+				<h2 className="resume-titles">Resume</h2>
+				<h3 className="resume-titles">Click resume to download</h3>
 				<a
+					className="resume-card"
 					target="_blank"
 					href="https://drive.google.com/file/d/1ah3uaYs-wiYqRcF9zWR4e0OK9zVRSGih/view?usp=sharing"
 					rel="noreferrer">
-					<img
-						src="https://i.imgur.com/2CbQ1Bc.png"
-						alt="author"
-						className="resume-card"
-					/>
+					<img src="https://i.imgur.com/IJYo46C.png" alt="author" />
 				</a>
-
+				<div>
+					<h2 className="resume-titles">Technical Skills</h2>
+				</div>
 				<div className="resume-icons">
 					{" "}
 					<a

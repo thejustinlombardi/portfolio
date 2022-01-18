@@ -28,15 +28,16 @@
 
 .details {
 	grid-row: 2;
-	grid-column: 2 / 4;
+	grid-column: 1 / 4;
 	font-family: "Fredericka the Great", cursive;
 	letter-spacing: 0.2rem;
-	line-height: 1.5rem;
+	line-height: 1rem;
+	margin: 5px;
 }
 
 .info-card {
 	grid-column: 2;
-	border: 1px solid white;
+	border: 2px solid white;
 }
 
 .card-title {
@@ -51,5 +52,6 @@
 }
 
 .about-title {
+	text-align: center;
 	font-size: 2rem;
 }

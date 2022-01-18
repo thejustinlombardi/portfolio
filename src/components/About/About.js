@@ -58,14 +58,13 @@ function About(props) {
 				<div className="details">
 					<h2 className="about-title">About</h2>
 					<p className="about-p">
-						Born in Philadelphia, PA, the story of Justin Lombardi goes
-						something like this...
+						The story of Justin Lombardi goes something like this...
 					</p>
 					<p className="about-p">
-						A hard-working musician and salesman morphed into a full-time sales
-						manager and part time audio engineer by 20 years old. Opportunity
-						arose and took him across the country to work in the television and
-						film industry in Los Angeles.
+						Born in Philadelphia, PA, a hard-working musician and salesman
+						morphed into a full-time sales manager and part time audio engineer
+						by 20 years old. Opportunity arose and took him across the country
+						to work in the television and film industry in Los Angeles.
 					</p>
 					<p className="about-p">
 						Hungry for more, Justin then began his journey studying Computer
