@@ -3,11 +3,12 @@
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
+	margin: 10px;
 }
 .resume-card {
 	object-fit: fill;
-	width: 80%;
-	height: 100%;
+	width: 50%;
+	height: 50%;
 	margin: 10px 0px;
 	border: 2px solid black;
 	border-radius: 5px;
@@ -22,7 +23,23 @@
 
 .resume-titles {
 	color: rgba(247, 210, 16, 100%);
-	font-size: 0.85rem;
+	font-size: 1rem;
 	font-family: "Red Rose", cursive;
 	font-weight: 700;
+}
+
+.resume-list-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.resume-list {
+	display: flex;
+	flex-direction: column;
+	/* flex-wrap: wrap; */
+	/* justify-content: space-around; */
+	/* height: 100px; */
+	/* list-style-type: none; */
+	color: rgba(247, 210, 16, 100%);
+	margin: 15px;
 }

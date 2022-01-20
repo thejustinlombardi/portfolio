@@ -171,7 +171,35 @@ function Resume(props) {
 						/>{" "}
 					</a>{" "}
 				</div>
+				<div className="resume-list-container">
+					<ul className="resume-list">
+						<li> React </li>
+						<li> JavaScript </li>
+						<li> CSS </li>
+						<li> HTML </li>
+						<li> TypeScript </li>
+						<li> MongoDB </li>
+						<li> Mongoose </li>
+						<li> Node.js </li>
+						<li> Express.js </li>
+					</ul>
+					<ul className="resume-list">
+						<li> Python </li>
+						<li> Java </li>
+						<li> C++ </li>
+						<li> SQL </li>
+						<li> PostgreSQL </li>
+						<li> Django </li>
+						<li> Git/Github </li>
+						<li> Postman</li>
+					</ul>
+				</div>
 			</main>
+			<footer>
+				<div className="vol-div">
+					<h2>Vol. 1</h2>
+				</div>
+			</footer>
 		</div>
 	);
 }

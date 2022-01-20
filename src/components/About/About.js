@@ -77,6 +77,11 @@ function About(props) {
 					</p>
 				</div>
 			</main>
+			<footer>
+				<div className="vol-div">
+					<h2>Vol. 1</h2>
+				</div>
+			</footer>
 		</div>
 	);
 }
