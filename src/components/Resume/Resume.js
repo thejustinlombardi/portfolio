@@ -55,9 +55,9 @@ function Resume(props) {
 				<a
 					className="resume-card"
 					target="_blank"
-					href="https://drive.google.com/file/d/1ah3uaYs-wiYqRcF9zWR4e0OK9zVRSGih/view?usp=sharing"
+					href="https://drive.google.com/file/d/1jsid7GbIdgTcYqFjdhRlQ-50l-1bgVMQ/view?usp=sharing"
 					rel="noreferrer">
-					<img src="https://i.imgur.com/IJYo46C.png" alt="author" />
+					<img src="https://i.imgur.com/KSXZH4W.png" alt="author" />
 				</a>
 				<div>
 					<h2 className="resume-titles">Technical Skills</h2>
