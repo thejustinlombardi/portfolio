@@ -1,0 +1,9 @@
+.sub-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: rgba(247, 210, 16, 100%);
+	font-family: "Red Rose", cursive;
+	width: 50%;
+}
