@@ -1,11 +1,10 @@
-import { Link } from "react-router-dom";
-import ProjectList from "./ProjectList";
+import React from "react";
+import { Link, useParams } from "react-router-dom";
 
-import "./Project.css";
-
-function Projects({ projects }) {
+function ProjectResults({ projects }) {
+	const { id } = useParams();
 	return (
-		<>
+		<div>
 			<header className="home-container">
 				<div className="home-title">
 					<h2>ORIGINS OF</h2>
@@ -34,9 +33,9 @@ function Projects({ projects }) {
 						/>
 					</a>
 				</div>
-				<Link to="/home" className="about-subtitle">
+				<Link to="/home/projects" className="about-subtitle">
 					<div>
-						<h2>Back to Home Page</h2>
+						<h2>Back to Projects Page</h2>
 					</div>
 				</Link>
 				<div className="home-cents-div">FREE EDITION</div>
@@ -48,18 +47,35 @@ function Projects({ projects }) {
 					<img src="https://i.imgur.com/KpX5DLz.jpg?1" alt="justin-lombardi" />
 				</div>
 			</header>
-			<div className="project-subtitle about-subtitle">
-				<h2>Choose the project you'd like to view!</h2>
-			</div>
-			<ProjectList projects={projects} />
+			<div className="details-container">
+				<img
+					src={projects[id].image}
+					alt={projects[id].title}
+					className="info-card"
+				/>
+				<div className="details">
+					<h3>Name: </h3>
+					<p>{projects[id].title}</p>
+					<h3>Technologies Used: </h3>
+					<p>{projects[id].tech}</p>
+					<h4>Description: </h4>
+					<p>{projects[id].description}</p>
+					<h4>Status: </h4>
+					<p>{projects[id].status}</p>
+					<h4>Motivation: </h4>
+					<p>{projects[id].motivation}</p>
 
-			<footer>
-				<div className="vol-div">
-					<h2>Vol. 1</h2>
+					<a
+						className="learn-more"
+						target="_blank"
+						href={projects[id].site}
+						rel="noreferrer">
+						Go to the Live Site!
+					</a>
 				</div>
-			</footer>
-		</>
+			</div>
+		</div>
 	);
 }
 
-export default Projects;
+export default ProjectResults;
