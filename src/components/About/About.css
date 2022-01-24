@@ -1,0 +1,57 @@
+.about-subtitle {
+	text-decoration: none;
+	grid-row: 4;
+	grid-column: 1 / 5;
+	background-color: blue;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border-radius: 5px;
+	border: 2px solid black;
+}
+
+/* .about-subtitle:hover {
+	transform: scale(1.1);
+	box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 70%);
+} */
+
+.details-container {
+	display: grid;
+	grid-template-columns: 100px 0.8fr 30px;
+	grid-template-rows: repeat(2, 0.1fr);
+	border: 1px solid white;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+.details {
+	grid-row: 2;
+	grid-column: 1 / 4;
+	font-family: "Fredericka the Great", cursive;
+	letter-spacing: 0.2rem;
+	line-height: 1rem;
+	margin: 5px;
+}
+
+.info-card {
+	grid-column: 2;
+	border: 2px solid white;
+}
+
+.card-title {
+	font-family: "Rye", cursive;
+}
+
+.about-p {
+	color: rgba(247, 210, 16, 100%);
+	font-family: "Red Rose", cursive;
+	font-size: 0.85rem;
+	font-weight: 700;
+}
+
+.about-title {
+	text-align: center;
+	font-size: 2rem;
+}

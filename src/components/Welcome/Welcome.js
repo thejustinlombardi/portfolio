@@ -59,7 +59,7 @@ function Welcome() {
 			</div>
 
 			<div className="project2-div">
-				<img src="https://i.imgur.com/mfL1nF8.jpg" alt="project-screenshot" />
+				<img src="https://i.imgur.com/yDepiZf.png" alt="project-screenshot" />
 			</div>
 			<div className="project1-div">
 				<img src="https://i.imgur.com/JRURVpr.png" alt="project-screenshot" />

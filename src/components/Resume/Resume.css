@@ -1,0 +1,45 @@
+.resume-container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	margin: 10px;
+}
+.resume-card {
+	object-fit: fill;
+	width: 50%;
+	height: 50%;
+	margin: 10px 0px;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.resume-icons {
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	height: 10%;
+}
+
+.resume-titles {
+	color: rgba(247, 210, 16, 100%);
+	font-family: "Red Rose", cursive;
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.resume-list-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.resume-list {
+	display: flex;
+	flex-direction: column;
+	/* flex-wrap: wrap; */
+	/* justify-content: space-around; */
+	/* height: 100px; */
+	/* list-style-type: none; */
+	color: rgba(247, 210, 16, 100%);
+	margin: 15px;
+}

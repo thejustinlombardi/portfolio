@@ -9,17 +9,17 @@ function HomeResults(props) {
 					<img
 						className="card-img"
 						src="https://i.imgur.com/fVhD4Lf.jpg"
-						alt="justin-lombardi"
+						alt="justin-lombardi-about"
 					/>
 					<h2>Issue #01</h2>
-					<h2>About Me</h2>
+					<h2>About</h2>
 				</Link>
 
 				<Link to={`/home/projects`} className="issues-div projects-div">
 					<img
 						className="card-img"
 						src="https://i.imgur.com/JRURVpr.png"
-						alt="justin-lombardi"
+						alt="justin-lombardi-projects"
 					/>
 					<h2>Issue #02</h2>
 					<h2>Projects</h2>
@@ -28,18 +28,18 @@ function HomeResults(props) {
 				<Link to={`/home/resume`} className="issues-div resume-div">
 					<img
 						className="card-img"
-						src="https://i.imgur.com/2CbQ1Bc.png"
-						alt="justin-lombardi"
+						src="https://i.imgur.com/KSXZH4W.png"
+						alt="justin-lombardi-resume"
 					/>
 					<h2>Issue #03</h2>
-					<h2>Resume</h2>
+					<h2>Resume/Skills</h2>
 				</Link>
 
 				<Link to={`/home/contact`} className="issues-div contact-div">
 					<img
 						className="card-img"
 						src="https://i.imgur.com/ngXfHHu.jpg"
-						alt="justin-lombardi"
+						alt="justin-lombardi-contact"
 					/>
 					<h2>Issue #04</h2>
 					<h2>Contact</h2>

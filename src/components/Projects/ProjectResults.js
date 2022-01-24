@@ -1,12 +1,10 @@
 import React from "react";
+import { Link, useParams } from "react-router-dom";
 
-import HomeResults from "./HomeResults";
-
-import "./Home.css";
-
-function Home(props) {
+function ProjectResults({ projects }) {
+	const { id } = useParams();
 	return (
-		<>
+		<div>
 			<header className="home-container">
 				<div className="home-title">
 					<h2>ORIGINS OF</h2>
@@ -35,10 +33,11 @@ function Home(props) {
 						/>
 					</a>
 				</div>
-
-				<div className="home-subtitle">
-					<h2>Choose your issue below!</h2>
-				</div>
+				<Link to="/home/projects" className="about-subtitle">
+					<div>
+						<h2>Back to Projects Page</h2>
+					</div>
+				</Link>
 				<div className="home-cents-div">FREE EDITION</div>
 				<div className="home-date-div">Apr 1993</div>
 				<div className="home-batman">
@@ -48,15 +47,35 @@ function Home(props) {
 					<img src="https://i.imgur.com/KpX5DLz.jpg?1" alt="justin-lombardi" />
 				</div>
 			</header>
-			<HomeResults />
+			<div className="details-container">
+				<img
+					src={projects[id].image}
+					alt={projects[id].title}
+					className="info-card"
+				/>
+				<div className="details">
+					<h3>Name: </h3>
+					<p>{projects[id].title}</p>
+					<h3>Technologies Used: </h3>
+					<p>{projects[id].tech}</p>
+					<h4>Description: </h4>
+					<p>{projects[id].description}</p>
+					<h4>Status: </h4>
+					<p>{projects[id].status}</p>
+					<h4>Motivation: </h4>
+					<p>{projects[id].motivation}</p>
 
-			<footer>
-				<div className="vol-div">
-					<h2>Vol. 1</h2>
+					<a
+						className="learn-more"
+						target="_blank"
+						href={projects[id].site}
+						rel="noreferrer">
+						Go to the Live Site!
+					</a>
 				</div>
-			</footer>
-		</>
+			</div>
+		</div>
 	);
 }
 
-export default Home;
+export default ProjectResults;
