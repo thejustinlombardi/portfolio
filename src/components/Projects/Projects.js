@@ -34,7 +34,7 @@ function Projects({ projects }) {
 						/>
 					</a>
 				</div>
-				<Link to="/home" className="about-subtitle">
+				<Link to="/home" className="home-subtitle">
 					<div>
 						<h2>Back to Home Page</h2>
 					</div>
