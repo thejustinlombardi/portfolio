@@ -5,7 +5,7 @@ import "./Resume.css";
 
 function Resume(props) {
 	return (
-		<div>
+		<div className="home-border">
 			<header className="home-container">
 				<div className="home-title">
 					<h2>ORIGINS OF</h2>
@@ -39,9 +39,6 @@ function Resume(props) {
 						<h2>Back to Home Page</h2>
 					</div>
 				</Link>
-
-				<div className="home-cents-div">FREE EDITION</div>
-				<div className="home-date-div">Apr 1993</div>
 				<div className="home-batman">
 					<img src="https://i.imgur.com/nDqzRJy.jpg" alt="justin-lombardi" />
 				</div>

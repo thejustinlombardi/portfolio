@@ -6,7 +6,7 @@ import "./Home.css";
 
 function Home(props) {
 	return (
-		<>
+		<div className="home-border">
 			<header className="home-container">
 				<div className="home-title">
 					<h2>ORIGINS OF</h2>
@@ -39,8 +39,7 @@ function Home(props) {
 				<div className="home-subtitle">
 					<h2>Choose your issue below!</h2>
 				</div>
-				<div className="home-cents-div">FREE EDITION</div>
-				<div className="home-date-div">Apr 1993</div>
+
 				<div className="home-batman">
 					<img src="https://i.imgur.com/nDqzRJy.jpg" alt="justin-lombardi" />
 				</div>
@@ -55,7 +54,7 @@ function Home(props) {
 					<h2>Vol. 1</h2>
 				</div>
 			</footer>
-		</>
+		</div>
 	);
 }
 

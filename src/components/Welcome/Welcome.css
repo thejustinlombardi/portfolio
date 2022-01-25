@@ -3,7 +3,7 @@
 }
 
 html {
-	background-color: rgba(255, 5, 0, 100%);
+	background-color: rgb(118, 25, 24);
 }
 
 img {
@@ -18,7 +18,7 @@ h1 {
 	font-family: "Red Rose", cursive;
 }
 h2 {
-	font-size: 0.85rem;
+	font-size: 0.95rem;
 	font-family: "Red Rose", cursive;
 }
 h1,
@@ -27,9 +27,9 @@ h2 {
 }
 .welcome-container {
 	display: grid;
-	grid-gap: 8px;
+	grid-gap: 15px;
 	grid-template-columns: repeat(5, 0.8fr);
-	grid-template-rows: 100px 50px 10px 50px repeat(3, 0.3fr) 50px;
+	grid-template-rows: 100px 20px 20px 100px repeat(3, 140px) 60px;
 	border: 3px solid black;
 	border-radius: 5px;
 	height: 100vh;
@@ -54,7 +54,7 @@ h2 {
 .welcome-title {
 	grid-row: 1 / 2;
 	grid-column: 2 / 5;
-	background-color: blue;
+	background-color: rgb(26, 26, 148);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -65,7 +65,7 @@ h2 {
 .welcome-subtitle {
 	grid-row: 4;
 	grid-column: 1 / 6;
-	background-color: blue;
+	background-color: rgb(26, 26, 148);
 	display: flex;
 	text-align: center;
 	align-items: center;
@@ -112,29 +112,6 @@ h2 {
 	grid-row: 6 / 7;
 }
 
-.cents-div {
-	grid-row: 2;
-	grid-column: 1;
-}
-
-.date-div {
-	grid-row: 2;
-	grid-column: 5;
-}
-
-.cents-div,
-.date-div {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: white;
-	text-align: center;
-	font-family: "Red Rose", cursive;
-	font-size: 0.5rem;
-	height: 50px;
-	font-weight: 600;
-}
-
 .start-reading {
 	text-decoration: none;
 	color: black;
@@ -155,14 +132,16 @@ h2 {
 .linked {
 	display: flex;
 	justify-content: center;
-	grid-row: 8;
+	grid-row: 2;
 	grid-column: 5;
+	height: 50px;
 }
 .git {
 	display: flex;
 	justify-content: center;
-	grid-row: 8;
+	grid-row: 2;
 	grid-column: 1;
+	height: 50px;
 }
 
 @keyframes background-animation {

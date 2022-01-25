@@ -17,8 +17,7 @@ function Welcome() {
 			<div className="welcome-subtitle">
 				<h2>Experience the adventures of a new Super Developer!</h2>
 			</div>
-			<div className="cents-div">FREE EDITION</div>
-			<div className="date-div">APR. 1993</div>
+
 			<div className="welcome-batman">
 				<img src="https://i.imgur.com/nDqzRJy.jpg" alt="justin-lombardi" />
 			</div>
