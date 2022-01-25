@@ -14,34 +14,10 @@ function Welcome() {
 				<h1>JUSTIN C LOMBARDI</h1>
 			</div>
 
-			<div className="linked">
-				<a href="https://linkedin.com/in/justin-lombardi" target="blank">
-					<img
-						align="center"
-						src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
-						alt="justin-lombardi"
-						height="30"
-						width="40"
-					/>
-				</a>
-			</div>
-			<div className="git">
-				<a href="https://github.com/thejustinlombardi" target="blank">
-					<img
-						align="center"
-						src="https://i.imgur.com/xwOFfCj.png"
-						alt="justin-lombardi"
-						height="30"
-						width="40"
-					/>
-				</a>
-			</div>
-
 			<div className="welcome-subtitle">
 				<h2>Experience the adventures of a new Super Developer!</h2>
 			</div>
-			<div className="cents-div">FREE EDITION</div>
-			<div className="date-div">Apr 1993</div>
+
 			<div className="welcome-batman">
 				<img src="https://i.imgur.com/nDqzRJy.jpg" alt="justin-lombardi" />
 			</div>
@@ -64,8 +40,30 @@ function Welcome() {
 			<div className="project1-div">
 				<img src="https://i.imgur.com/JRURVpr.png" alt="project-screenshot" />
 			</div>
+			<div className="linked">
+				<a href="https://linkedin.com/in/justin-lombardi" target="blank">
+					<img
+						align="center"
+						src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
+						alt="justin-lombardi"
+						height="30"
+						width="40"
+					/>
+				</a>
+			</div>
 			<div className="vol-div">
 				<h2>Vol. 1</h2>
+			</div>
+			<div className="git">
+				<a href="https://github.com/thejustinlombardi" target="blank">
+					<img
+						align="center"
+						src="https://i.imgur.com/xwOFfCj.png"
+						alt="justin-lombardi"
+						height="30"
+						width="40"
+					/>
+				</a>
 			</div>
 		</main>
 	);

@@ -5,7 +5,7 @@ import "./Project.css";
 
 function Projects({ projects }) {
 	return (
-		<>
+		<div className="home-border">
 			<header className="home-container">
 				<div className="home-title">
 					<h2>ORIGINS OF</h2>
@@ -39,8 +39,7 @@ function Projects({ projects }) {
 						<h2>Back to Home Page</h2>
 					</div>
 				</Link>
-				<div className="home-cents-div">FREE EDITION</div>
-				<div className="home-date-div">Apr 1993</div>
+
 				<div className="home-batman">
 					<img src="https://i.imgur.com/nDqzRJy.jpg" alt="justin-lombardi" />
 				</div>
@@ -58,7 +57,7 @@ function Projects({ projects }) {
 					<h2>Vol. 1</h2>
 				</div>
 			</footer>
-		</>
+		</div>
 	);
 }
 

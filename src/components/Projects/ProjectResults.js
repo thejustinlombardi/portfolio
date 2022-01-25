@@ -38,8 +38,7 @@ function ProjectResults({ projects }) {
 						<h2>Back to Projects Page</h2>
 					</div>
 				</Link>
-				<div className="home-cents-div">FREE EDITION</div>
-				<div className="home-date-div">Apr 1993</div>
+
 				<div className="home-batman">
 					<img src="https://i.imgur.com/nDqzRJy.jpg" alt="justin-lombardi" />
 				</div>
