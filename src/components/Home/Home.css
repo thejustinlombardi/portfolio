@@ -84,7 +84,7 @@ img {
 	text-decoration: none;
 	border: 2px solid black;
 	background-color: black;
-	box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 70%);
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 70%);
 	width: 40%;
 }
 .hero-card {
@@ -118,7 +118,7 @@ img {
 
 .card-img {
 	width: 100%;
-	height: 250px;
+	height: 210px;
 	border-radius: 5px;
 	border-bottom: 2px solid black;
 }

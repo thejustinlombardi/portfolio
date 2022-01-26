@@ -46,13 +46,13 @@ function ProjectResults({ projects }) {
 					<img src="https://i.imgur.com/KpX5DLz.jpg?1" alt="justin-lombardi" />
 				</div>
 			</header>
-			<div className="details-container">
+			<div className="project-container">
 				<img
 					src={projects[id].image}
 					alt={projects[id].title}
 					className="info-card"
 				/>
-				<div className="details">
+				<div className="project">
 					<h3>Name: </h3>
 					<p>{projects[id].title}</p>
 					<h3>Technologies Used: </h3>
