@@ -1,10 +1,10 @@
-import React from "react";
-import { Link, useParams } from "react-router-dom";
+import React from 'react';
+import { Link, useParams } from 'react-router-dom';
 
 function ProjectResults({ projects }) {
 	const { id } = useParams();
 	return (
-		<div>
+		<div className="project-page-container">
 			<header className="home-container">
 				<div className="home-title">
 					<h2>ORIGINS OF</h2>
@@ -53,25 +53,24 @@ function ProjectResults({ projects }) {
 					className="info-card"
 				/>
 				<div className="project">
-					<h3>Name: </h3>
+					<h3 className="project-titles">Name: </h3>
 					<p>{projects[id].title}</p>
-					<h3>Technologies Used: </h3>
+					<h3 className="project-titles">Technologies Used: </h3>
 					<p>{projects[id].tech}</p>
-					<h4>Description: </h4>
+					<h4 className="project-titles">Description: </h4>
 					<p>{projects[id].description}</p>
-					<h4>Status: </h4>
+					<h4 className="project-titles">Status: </h4>
 					<p>{projects[id].status}</p>
-					<h4>Motivation: </h4>
+					<h4 className="project-titles">Motivation: </h4>
 					<p>{projects[id].motivation}</p>
-
-					<a
-						className="learn-more"
-						target="_blank"
-						href={projects[id].site}
-						rel="noreferrer">
-						Go to the Live Site!
-					</a>
 				</div>
+				<a
+					className="learn-more"
+					target="_blank"
+					href={projects[id].site}
+					rel="noreferrer">
+					Go to the Live Site!
+				</a>
 			</div>
 		</div>
 	);

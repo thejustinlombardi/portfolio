@@ -1,10 +1,10 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
-import "./Welcome.css";
+import './Welcome.css';
 
 function Welcome() {
 	return (
-		<main className="welcome-container">
+		<main className="welcome-container page-trans">
 			<Link to="/home" className="start-reading">
 				<div>Start Reading Here!</div>
 			</Link>
@@ -35,10 +35,13 @@ function Welcome() {
 			</div>
 
 			<div className="project2-div">
-				<img src="https://i.imgur.com/yDepiZf.png" alt="project-screenshot" />
+				<img src="https://i.imgur.com/JRURVpr.png" alt="project-screenshot" />
 			</div>
 			<div className="project1-div">
-				<img src="https://i.imgur.com/JRURVpr.png" alt="project-screenshot" />
+				<img src="https://i.imgur.com/DwmsRSM.png?1" alt="project-screenshot" />
+			</div>
+			<div className="project3-div">
+				<img src="https://i.imgur.com/D8Dzpv3.png" alt="project-screenshot" />
 			</div>
 			<div className="linked">
 				<a href="https://linkedin.com/in/justin-lombardi" target="blank">
