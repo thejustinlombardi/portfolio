@@ -1,13 +1,26 @@
+.contact-border {
+	padding: 5px;
+	border: 3px solid black;
+	border-radius: 5px;
+}
 .contact-headers {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	color: rgba(247, 210, 16, 100%);
-	font-family: "Red Rose", cursive;
+	color: #efe2ba;
+	font-family: 'Red Rose', cursive;
 	margin: 10px;
 	margin-bottom: -20px;
+}
+
+.sent-reply {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
 
 .sub-form {
@@ -16,8 +29,8 @@
 	justify-content: center;
 	align-items: center;
 	padding: 20px 0px;
-	color: rgba(247, 210, 16, 100%);
-	font-family: "Red Rose", cursive;
+	color: #efe2ba;
+	font-family: 'Red Rose', cursive;
 	border-top: 2px solid black;
 	font-weight: 900;
 	margin: 10px;
@@ -44,8 +57,8 @@
 }
 
 .send-btn {
-	color: rgba(247, 210, 16, 100%);
-	font-family: "Red Rose", cursive;
-	background-color: rgb(26, 26, 148);
+	color: #efe2ba;
+	font-family: 'Red Rose', cursive;
+	background-color: #4056a1;
 	padding: 10px;
 }

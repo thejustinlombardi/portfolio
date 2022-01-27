@@ -1,12 +1,13 @@
-import React from "react";
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 
-import HomeResults from "./HomeResults";
+import HomeResults from './HomeResults';
 
-import "./Home.css";
+import './Home.css';
 
-function Home(props) {
+function Home({ projects }) {
 	return (
-		<div className="home-border">
+		<div className="home-border page-trans">
 			<header className="home-container">
 				<div className="home-title">
 					<h2>ORIGINS OF</h2>
@@ -48,7 +49,6 @@ function Home(props) {
 				</div>
 			</header>
 			<HomeResults />
-
 			<footer>
 				<div className="vol-div">
 					<h2>Vol. 1</h2>

@@ -7,8 +7,7 @@
 }
 .resume-card {
 	object-fit: fill;
-	width: 50%;
-	height: 50%;
+	width: 100%;
 	margin: 10px 0px;
 	border: 2px solid black;
 	border-radius: 5px;
@@ -22,8 +21,8 @@
 }
 
 .resume-titles {
-	color: rgba(247, 210, 16, 100%);
-	font-family: "Red Rose", cursive;
+	color: #efe2ba;
+	font-family: 'Red Rose', cursive;
 	font-size: 1rem;
 	font-weight: 700;
 }
@@ -40,6 +39,6 @@
 	/* justify-content: space-around; */
 	/* height: 100px; */
 	/* list-style-type: none; */
-	color: rgba(247, 210, 16, 100%);
+	color: #efe2ba;
 	margin: 15px;
 }
