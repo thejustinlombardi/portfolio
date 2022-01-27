@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
-import "./Welcome.css";
+import './Welcome.css';
 
 function Welcome() {
 	return (
@@ -35,10 +35,10 @@ function Welcome() {
 			</div>
 
 			<div className="project2-div">
-				<img src="https://i.imgur.com/yDepiZf.png" alt="project-screenshot" />
+				<img src="https://i.imgur.com/2YaoKuq.png" alt="project-screenshot" />
 			</div>
 			<div className="project1-div">
-				<img src="https://i.imgur.com/JRURVpr.png" alt="project-screenshot" />
+				<img src="https://i.imgur.com/DwmsRSM.png?1" alt="project-screenshot" />
 			</div>
 			<div className="linked">
 				<a href="https://linkedin.com/in/justin-lombardi" target="blank">
