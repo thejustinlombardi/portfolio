@@ -35,10 +35,13 @@ function Welcome() {
 			</div>
 
 			<div className="project2-div">
-				<img src="https://i.imgur.com/2YaoKuq.png" alt="project-screenshot" />
+				<img src="https://i.imgur.com/JRURVpr.png" alt="project-screenshot" />
 			</div>
 			<div className="project1-div">
 				<img src="https://i.imgur.com/DwmsRSM.png?1" alt="project-screenshot" />
+			</div>
+			<div className="project3-div">
+				<img src="https://i.imgur.com/D8Dzpv3.png" alt="project-screenshot" />
 			</div>
 			<div className="linked">
 				<a href="https://linkedin.com/in/justin-lombardi" target="blank">
