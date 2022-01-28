@@ -50,16 +50,16 @@ img {
 }
 
 .home-linked {
-	display: flex;
-	justify-content: center;
 	grid-row: 3;
 	grid-column: 4;
-}
-.home-git {
 	display: flex;
 	justify-content: center;
+}
+.home-git {
 	grid-row: 3;
 	grid-column: 1;
+	display: flex;
+	justify-content: center;
 }
 
 .home-title,
