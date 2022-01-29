@@ -1,7 +1,8 @@
 .contact-border {
-	padding: 5px;
 	border: 3px solid black;
 	border-radius: 5px;
+	margin: 5px 10px;
+	padding: 5px;
 }
 .contact-headers {
 	display: flex;
@@ -61,4 +62,71 @@
 	font-family: 'Red Rose', cursive;
 	background-color: #4056a1;
 	padding: 10px;
+}
+
+@media (min-width: 600px) {
+	.contact-border {
+		border: 3px solid black;
+		border-radius: 5px;
+	}
+	.contact-headers {
+		margin-bottom: -40px;
+	}
+
+	.sent-reply {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+
+	.sub-form {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 20px 0px;
+		color: #efe2ba;
+		font-family: 'Red Rose', cursive;
+		border-top: 2px solid black;
+		font-weight: 900;
+		margin: 20px;
+	}
+
+	.vol-contact {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.contact-body {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		height: 700px;
+		margin-top: -40px;
+	}
+
+	.name-input,
+	.email-input {
+		height: 30px;
+	}
+
+	.message-input,
+	.email-input,
+	.name-input {
+		margin: 10px 0px;
+		width: 400px;
+	}
+
+	.send-btn {
+		color: #efe2ba;
+		font-family: 'Red Rose', cursive;
+		font-size: 1.2rem;
+		background-color: #4056a1;
+		padding: 10px 20px;
+		border-radius: 5px;
+		border: 2px solid black;
+	}
 }

@@ -7,7 +7,7 @@ import './Home.css';
 
 function Home({ projects }) {
 	return (
-		<div className="home-border page-trans">
+		<div className="home-border">
 			<header className="home-container">
 				<div className="home-title">
 					<h2>ORIGINS OF</h2>

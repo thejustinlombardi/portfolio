@@ -51,9 +51,9 @@ function Projects({ projects }) {
 						/>
 					</div>
 				</header>
-				<div className="project-subtitle about-subtitle">
+				{/* <div className="project-subtitle about-subtitle">
 					<h2>Choose the project you'd like to view!</h2>
-				</div>
+				</div> */}
 				<ProjectList projects={projects} />
 
 				<footer>
