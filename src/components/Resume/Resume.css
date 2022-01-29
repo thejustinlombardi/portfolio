@@ -42,3 +42,28 @@
 	color: #efe2ba;
 	margin: 15px;
 }
+
+@media (min-width: 600px) {
+	.resume-card {
+		width: 400px;
+		height: 500px;
+	}
+
+	.resume-icons {
+		width: 550px;
+		justify-content: space-around;
+		margin: 20px 0px;
+	}
+	.resume-icons a {
+		padding: 5px;
+	}
+
+	.resume-titles {
+		font-size: 2rem;
+		margin: 20px 0px;
+	}
+
+	.resume-list {
+		font-size: 1.3rem;
+	}
+}

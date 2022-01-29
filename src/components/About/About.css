@@ -52,10 +52,6 @@
 }
 
 @media (min-width: 600px) {
-	.about-subtitle {
-		grid-column: 2 / 7;
-	}
-
 	.details-container {
 		display: flex;
 		flex-direction: column;
