@@ -47,3 +47,6 @@
 	font-size: 1.3rem;
 	font-weight: b;
 }
+
+@media (min-width: 600px) {
+}

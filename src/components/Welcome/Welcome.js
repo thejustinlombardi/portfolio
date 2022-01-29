@@ -4,7 +4,7 @@ import './Welcome.css';
 
 function Welcome() {
 	return (
-		<main className="welcome-container page-trans">
+		<main className="welcome-container">
 			<Link to="/home" className="start-reading">
 				<div>Start Reading Here!</div>
 			</Link>

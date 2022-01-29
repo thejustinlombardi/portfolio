@@ -1,7 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-import "./About.css";
+import './About.css';
 
 function About(props) {
 	return (
@@ -63,7 +63,7 @@ function About(props) {
 						Hungry for more knowledge, I began studying Computer Science with a
 						focus in Software Engineering. This led to a new found passion and
 						more curiosity for the field. I then enrolled at General Assembly's
-						Software Engineering Immersive to sharpen my new skills. I know
+						Software Engineering Immersive to sharpen my new skills. I now
 						reside in New York City looking to continue my growth in this new
 						industry.
 					</p>
