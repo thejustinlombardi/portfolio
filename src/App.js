@@ -32,7 +32,7 @@ function App(props) {
 			description:
 				'A superhero app that allows you to search for your favorite heroes using a great API, fun styling, and React!',
 			status:
-				"This app is fully functional and currently is designed for mobile, tablet, and desktop use! The fellow hero can explore up to 700+ superheroes thanks to a wonderful superhero API that has been integrated into the site. Currently, you can search for your own hero by name or be given a random hero to learn about. The user will be able to also click a 'Learn More' button that will take them to a more in-depth database with more facts. Users will eventually be able to sign up and sign in to keep a list of their favorite heroes!",
+				"This app is fully functional and currently is designed for mobile, tablet, and desktop use! The fellow hero can explore 700+ superheroes thanks to a wonderful superhero API that has been integrated into the site. Currently, you can search for your own hero by name or be given a random hero to learn about. The user will be able to also click a 'Learn More' button that will take them to a more in-depth database with more facts. Users will eventually be able to sign up and sign in to keep a list of their favorite heroes!",
 			motivation:
 				'I absolutely love comics and the superhero universe! I am also always trying to remember the names, looks, and aliases of my favorite heroes and villains. I wanted to create a space to do that in while also challenging myself to work on my CSS skills. This app tested my attention to detail and I am proud of the functionality of it!',
 			image: 'https://i.imgur.com/DwmsRSM.png?1',
@@ -46,7 +46,7 @@ function App(props) {
 			status:
 				'This game is fully functional and currently has two additional modes to play. There is a time attack version that gives the player two minutes to get as high of a score as they can. There is also a hard mode that doubles the sequences as you progress to each round!',
 			motivation:
-				'I wanted to challenge myself with this project because I knew it was going to be difficult to get the sounds to line up right with the glow. I used to love playing this game when I was a kid and, as a first project, I wanted the challenge.',
+				'I wanted to challenge myself with this project because I knew it was going to be difficult to get the sounds to line up right with the glow. I used to love playing this game when I was a kid and, as a first project, I wanted to try and recreate a digital version of it.',
 			image: 'https://i.imgur.com/JRURVpr.png',
 			site: 'https://thejustinlombardi.github.io/simon-browser-game/',
 		},

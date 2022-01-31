@@ -56,12 +56,12 @@ function About(props) {
 					<h2 className="about-title">About</h2>
 					<p className="about-p">
 						Born in Philadelphia, PA, I began my professional career in the
-						music industry before taking my dreams to Los Angeles to work for
-						the tv and film industry.
+						music industry before taking my dreams to Los Angeles to work in the
+						tv and film industry.
 					</p>
 					<p className="about-p">
 						Hungry for more knowledge, I began studying Computer Science with a
-						focus in Software Engineering. This led to a new found passion and
+						focus in Software Engineering. This led to a newfound passion and
 						more curiosity for the field. I then enrolled at General Assembly's
 						Software Engineering Immersive to sharpen my new skills. I now
 						reside in New York City looking to continue my growth in this new

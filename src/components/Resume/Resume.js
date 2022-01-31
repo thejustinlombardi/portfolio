@@ -176,7 +176,6 @@ function Resume(props) {
 						<li> HTML </li>
 						<li> TypeScript </li>
 						<li> MongoDB </li>
-						<li> Mongoose </li>
 						<li> Node.js </li>
 						<li> Express.js </li>
 					</ul>
