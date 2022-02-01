@@ -4,7 +4,12 @@
 	border-radius: 5px;
 }
 .project-subtitle {
-	margin: 10px 0px;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	margin: 30px 0px;
 }
 
 .home-subtitle {
@@ -70,6 +75,13 @@
 	}
 	.about-subtitle {
 		grid-column: 2 / 7;
+	}
+
+	.project-subtitle {
+		display: flex;
+		flex-direction: row;
+		text-align: center;
+		margin: 30px 0px;
 	}
 
 	.home-subtitle {
