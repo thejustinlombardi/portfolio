@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 function HomeResults(props) {
 	return (
@@ -32,7 +32,7 @@ function HomeResults(props) {
 				<Link to={`/home/resume`} className="issues-div resume-div">
 					<img
 						className="card-img"
-						src="https://i.imgur.com/KSXZH4W.png"
+						src="https://i.imgur.com/MUh2itd.png"
 						alt="justin-lombardi-resume"
 					/>
 					<div className="card-text">

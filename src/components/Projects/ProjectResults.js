@@ -1,8 +1,9 @@
-import React from 'react';
-import { Link, useParams } from 'react-router-dom';
+import React from "react";
+import { Link, useParams } from "react-router-dom";
 
 function ProjectResults({ projects }) {
 	const { id } = useParams();
+
 	return (
 		<div className="project-page-container">
 			<header className="home-container">

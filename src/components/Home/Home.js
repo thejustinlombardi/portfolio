@@ -1,9 +1,8 @@
-import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import React from "react";
 
-import HomeResults from './HomeResults';
+import HomeResults from "./HomeResults";
 
-import './Home.css';
+import "./Home.css";
 
 function Home({ projects }) {
 	return (
@@ -28,15 +27,14 @@ function Home({ projects }) {
 					</a>
 				</div>
 
-				<div className="home-subtitle">
-					<h2>Choose your issue below!</h2>
-				</div>
-
 				<div className="home-batman">
 					<img src="https://i.imgur.com/nDqzRJy.jpg" alt="justin-lombardi" />
 				</div>
 				<div className="home-bazinga">
 					<img src="https://i.imgur.com/KpX5DLz.jpg?1" alt="justin-lombardi" />
+				</div>
+				<div className="home-subtitle">
+					<h2>Choose your issue below!</h2>
 				</div>
 			</header>
 			<HomeResults />
