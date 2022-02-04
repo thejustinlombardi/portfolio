@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import './Resume.css';
+import "./Resume.css";
 
 function Resume(props) {
 	return (
@@ -52,7 +52,7 @@ function Resume(props) {
 				<a
 					className="resume-card"
 					target="_blank"
-					href="https://drive.google.com/file/d/1DkzCFI4dzh5dg2PL16FXs11jUVHaLQBh/view?usp=sharing"
+					href="https://drive.google.com/file/d/19NUA-2rI1x7KMPGounpRafAg2N8oZzHh/view?usp=sharing"
 					rel="noreferrer">
 					<img src="https://i.imgur.com/MUh2itd.png" alt="author" />
 				</a>
@@ -60,113 +60,113 @@ function Resume(props) {
 					<h2 className="resume-titles">Technical Skills</h2>
 				</div>
 				<div className="resume-icons">
-					{' '}
+					{" "}
 					<a
 						href="https://www.w3schools.com/cpp/"
 						target="_blank"
 						rel="noreferrer">
-						{' '}
+						{" "}
 						<img
 							src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
 							alt="cplusplus"
-						/>{' '}
-					</a>{' '}
+						/>{" "}
+					</a>{" "}
 					<a
 						href="https://www.w3schools.com/css/"
 						target="_blank"
 						rel="noreferrer">
-						{' '}
+						{" "}
 						<img
 							src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
 							alt="css3"
-						/>{' '}
-					</a>{' '}
+						/>{" "}
+					</a>{" "}
 					<a
 						href="https://www.djangoproject.com/"
 						target="_blank"
 						rel="noreferrer">
-						{' '}
+						{" "}
 						<img
 							src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-original.svg"
 							alt="django"
-						/>{' '}
-					</a>{' '}
+						/>{" "}
+					</a>{" "}
 					<a href="https://expressjs.com" target="_blank" rel="noreferrer">
-						{' '}
+						{" "}
 						<img
 							src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
 							alt="express"
-						/>{' '}
-					</a>{' '}
+						/>{" "}
+					</a>{" "}
 					<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
-						{' '}
+						{" "}
 						<img
 							src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
 							alt="html5"
-						/>{' '}
-					</a>{' '}
+						/>{" "}
+					</a>{" "}
 					<a href="https://www.java.com" target="_blank" rel="noreferrer">
-						{' '}
+						{" "}
 						<img
 							src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
 							alt="java"
-						/>{' '}
-					</a>{' '}
+						/>{" "}
+					</a>{" "}
 					<a
 						href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
 						target="_blank"
 						rel="noreferrer">
-						{' '}
+						{" "}
 						<img
 							src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
 							alt="javascript"
-						/>{' '}
-					</a>{' '}
+						/>{" "}
+					</a>{" "}
 					<a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
-						{' '}
+						{" "}
 						<img
 							src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
 							alt="mongodb"
-						/>{' '}
-					</a>{' '}
+						/>{" "}
+					</a>{" "}
 					<a href="https://nodejs.org" target="_blank" rel="noreferrer">
-						{' '}
+						{" "}
 						<img
 							src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
 							alt="nodejs"
-						/>{' '}
-					</a>{' '}
+						/>{" "}
+					</a>{" "}
 					<a href="https://www.postgresql.org" target="_blank" rel="noreferrer">
-						{' '}
+						{" "}
 						<img
 							src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
 							alt="postgresql"
-						/>{' '}
-					</a>{' '}
+						/>{" "}
+					</a>{" "}
 					<a href="https://www.python.org" target="_blank" rel="noreferrer">
-						{' '}
+						{" "}
 						<img
 							src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
 							alt="python"
-						/>{' '}
-					</a>{' '}
+						/>{" "}
+					</a>{" "}
 					<a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-						{' '}
+						{" "}
 						<img
 							src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
 							alt="react"
-						/>{' '}
-					</a>{' '}
+						/>{" "}
+					</a>{" "}
 					<a
 						href="https://www.typescriptlang.org/"
 						target="_blank"
 						rel="noreferrer">
-						{' '}
+						{" "}
 						<img
 							src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
 							alt="typescript"
-						/>{' '}
-					</a>{' '}
+						/>{" "}
+					</a>{" "}
 				</div>
 				<div className="resume-list-container">
 					<ul className="resume-list">
