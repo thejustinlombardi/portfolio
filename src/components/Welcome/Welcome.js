@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
-import './Welcome.css';
+import "./Welcome.css";
 
 function Welcome() {
 	return (
@@ -22,7 +22,7 @@ function Welcome() {
 				<img src="https://i.imgur.com/nDqzRJy.jpg" alt="justin-lombardi" />
 			</div>
 			<div className="welcome-bazinga">
-				<img src="https://i.imgur.com/KpX5DLz.jpg?1" alt="justin-lombardi" />
+				<img src="https://i.imgur.com/Zkdc0IV.jpg" alt="justin-lombardi" />
 			</div>
 			<div className="welcome-about">
 				<img src="https://i.imgur.com/fVhD4Lf.jpg" alt="justin-lombardi" />

@@ -1,8 +1,8 @@
-import React, { useRef, useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import emailjs from '@emailjs/browser';
+import React, { useRef, useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import emailjs from "@emailjs/browser";
 
-import './Contact.css';
+import "./Contact.css";
 
 function Contact(props) {
 	const [sent, setSent] = useState(false);
@@ -17,10 +17,10 @@ function Contact(props) {
 
 		emailjs
 			.sendForm(
-				'contact_service',
-				'contact_form',
+				"contact_service",
+				"contact_form",
 				form.current,
-				'user_D9fezxKcsPpYW2DNiOJg4'
+				"user_D9fezxKcsPpYW2DNiOJg4"
 			)
 			.then(
 				(result) => {
@@ -34,47 +34,6 @@ function Contact(props) {
 	};
 	return (
 		<div className="contact-border">
-			<header className="home-container">
-				<div className="home-title">
-					<h2>ORIGINS OF</h2>
-					<h1>JUSTIN C LOMBARDI</h1>
-				</div>
-
-				<div className="home-linked">
-					<a href="https://linkedin.com/in/justin-lombardi" target="blank">
-						<img
-							align="center"
-							src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
-							alt="justin-lombardi"
-							height="30"
-							width="40"
-						/>
-					</a>
-				</div>
-				<div className="home-git">
-					<a href="https://github.com/thejustinlombardi" target="blank">
-						<img
-							align="center"
-							src="https://i.imgur.com/xwOFfCj.png"
-							alt="justin-lombardi"
-							height="30"
-							width="40"
-						/>
-					</a>
-				</div>
-				<Link to="/home" className="about-subtitle">
-					<div>
-						<h2>Back to Home Page</h2>
-					</div>
-				</Link>
-
-				<div className="home-batman">
-					<img src="https://i.imgur.com/nDqzRJy.jpg" alt="justin-lombardi" />
-				</div>
-				<div className="home-bazinga">
-					<img src="https://i.imgur.com/KpX5DLz.jpg?1" alt="justin-lombardi" />
-				</div>
-			</header>
 			<main className="contact-body">
 				<div className="contact-headers">
 					<h3>I would love to hear from you! </h3>

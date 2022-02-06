@@ -5,12 +5,7 @@ import "./About.css";
 
 function About(props) {
 	return (
-		<div>
-			<Link to="/home" className="about-subtitle">
-				<div>
-					<h2>Back to Home Page</h2>
-				</div>
-			</Link>
+		<div className="home-border">
 			<main className="details-container">
 				<img
 					src="https://i.imgur.com/qT5xs6W.jpg"
