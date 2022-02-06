@@ -2,9 +2,11 @@ import React from "react";
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 
 import Home from "./components/Home/Home";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 import Welcome from "./components/Welcome/Welcome";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
@@ -13,6 +15,7 @@ import Resume from "./components/Resume/Resume";
 import ProjectResults from "./components/Projects/ProjectResults";
 
 function App(props) {
+	const { pathname } = useLocation();
 	const [projects, setProjects] = useState([]);
 
 	useEffect(() => {
@@ -31,7 +34,8 @@ function App(props) {
 		}
 	};
 	return (
-		<div className="app-container">
+		<div className="home-border">
+			{pathname !== "/" && <Header />}
 			<Routes>
 				<Route path="/" element={<Welcome />} />
 				<Route path="/home" element={<Home />} />
@@ -47,6 +51,7 @@ function App(props) {
 					element={<ProjectResults projects={projects} />}
 				/>
 			</Routes>
+			<Footer />
 		</div>
 	);
 }

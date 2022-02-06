@@ -4,11 +4,12 @@
 	flex-direction: column;
 	justify-content: center;
 	margin: 10px;
+	animation: slidein 1s;
 }
 .resume-card {
 	object-fit: fill;
-	width: 100%;
-	margin: 10px 0px;
+	width: 50%;
+	margin: 10px 10px;
 	border: 2px solid black;
 	border-radius: 5px;
 }
@@ -22,7 +23,7 @@
 
 .resume-titles {
 	color: #efe2ba;
-	font-family: 'Red Rose', cursive;
+	font-family: "Red Rose", cursive;
 	font-size: 1rem;
 	font-weight: 700;
 }
@@ -43,7 +44,7 @@
 	margin: 15px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
 	.resume-card {
 		width: 400px;
 		height: 500px;

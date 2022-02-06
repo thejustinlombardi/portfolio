@@ -1,8 +1,8 @@
 .contact-border {
-	border: 3px solid black;
 	border-radius: 5px;
 	margin: 5px 10px;
 	padding: 5px;
+	animation: slidein 1s;
 }
 .contact-headers {
 	display: flex;
@@ -11,7 +11,7 @@
 	align-items: center;
 	text-align: center;
 	color: #efe2ba;
-	font-family: 'Red Rose', cursive;
+	font-family: "Red Rose", cursive;
 	margin: 10px;
 	margin-bottom: -20px;
 }
@@ -31,7 +31,7 @@
 	align-items: center;
 	padding: 20px 0px;
 	color: #efe2ba;
-	font-family: 'Red Rose', cursive;
+	font-family: "Red Rose", cursive;
 	border-top: 2px solid black;
 	font-weight: 900;
 	margin: 10px;
@@ -59,16 +59,14 @@
 
 .send-btn {
 	color: #efe2ba;
-	font-family: 'Red Rose', cursive;
+	font-family: "Red Rose", cursive;
 	background-color: #4056a1;
 	padding: 10px;
+	border-radius: 5px;
+	width: 80px;
 }
 
-@media (min-width: 600px) {
-	.contact-border {
-		border: 3px solid black;
-		border-radius: 5px;
-	}
+@media (min-width: 800px) {
 	.contact-headers {
 		margin-bottom: -40px;
 	}
@@ -88,7 +86,7 @@
 		align-items: center;
 		padding: 20px 0px;
 		color: #efe2ba;
-		font-family: 'Red Rose', cursive;
+		font-family: "Red Rose", cursive;
 		border-top: 2px solid black;
 		font-weight: 900;
 		margin: 20px;
@@ -122,7 +120,7 @@
 
 	.send-btn {
 		color: #efe2ba;
-		font-family: 'Red Rose', cursive;
+		font-family: "Red Rose", cursive;
 		font-size: 1.2rem;
 		background-color: #4056a1;
 		padding: 10px 20px;

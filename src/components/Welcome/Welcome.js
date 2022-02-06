@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
-import './Welcome.css';
+import "./Welcome.css";
 
 function Welcome() {
 	return (
@@ -22,7 +22,7 @@ function Welcome() {
 				<img src="https://i.imgur.com/nDqzRJy.jpg" alt="justin-lombardi" />
 			</div>
 			<div className="welcome-bazinga">
-				<img src="https://i.imgur.com/KpX5DLz.jpg?1" alt="justin-lombardi" />
+				<img src="https://i.imgur.com/Zkdc0IV.jpg" alt="justin-lombardi" />
 			</div>
 			<div className="welcome-about">
 				<img src="https://i.imgur.com/fVhD4Lf.jpg" alt="justin-lombardi" />
@@ -41,7 +41,7 @@ function Welcome() {
 				<img src="https://i.imgur.com/DwmsRSM.png?1" alt="project-screenshot" />
 			</div>
 			<div className="project3-div">
-				<img src="https://i.imgur.com/D8Dzpv3.png" alt="project-screenshot" />
+				<img src="https://i.imgur.com/ogi8uwx.png" alt="project-screenshot" />
 			</div>
 			<div className="linked">
 				<a href="https://linkedin.com/in/justin-lombardi" target="blank">
@@ -54,9 +54,7 @@ function Welcome() {
 					/>
 				</a>
 			</div>
-			<div className="vol-div">
-				<h2>Vol. 1</h2>
-			</div>
+
 			<div className="git">
 				<a href="https://github.com/thejustinlombardi" target="blank">
 					<img
