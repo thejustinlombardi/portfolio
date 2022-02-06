@@ -5,7 +5,7 @@ import "./About.css";
 
 function About(props) {
 	return (
-		<div className="home-border">
+		<div>
 			<main className="details-container">
 				<img
 					src="https://i.imgur.com/qT5xs6W.jpg"

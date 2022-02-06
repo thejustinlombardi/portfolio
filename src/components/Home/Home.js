@@ -4,15 +4,10 @@ import HomeResults from "./HomeResults";
 
 import "./Home.css";
 
-function Home({ projects }) {
+function Home(props) {
 	return (
-		<div className="home-border">
+		<div>
 			<HomeResults />
-			<footer>
-				<div className="vol-div">
-					<h2>Vol. 1</h2>
-				</div>
-			</footer>
 		</div>
 	);
 }

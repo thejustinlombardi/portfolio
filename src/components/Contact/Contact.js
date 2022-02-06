@@ -74,11 +74,6 @@ function Contact(props) {
 					)}
 				</div>
 			</main>
-			<footer className="contact-footer">
-				<div className="vol-contact">
-					<h2>Vol. 1</h2>
-				</div>
-			</footer>
 		</div>
 	);
 }

@@ -6,7 +6,7 @@ function ProjectResults({ projects }) {
 
 	return (
 		<div className="project-page-container">
-			<Link to="/home/projects" className="about-subtitle">
+			<Link to="/home/projects" className="project-subtitle">
 				<div>
 					<h2>Back to Projects Page</h2>
 				</div>

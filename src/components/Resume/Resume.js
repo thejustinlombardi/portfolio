@@ -1,11 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import "./Resume.css";
 
 function Resume(props) {
 	return (
-		<div className="home-border">
+		<div>
 			<main className="resume-container">
 				<h2 className="resume-titles">Resume</h2>
 				<h3 className="resume-titles">Click resume below to download</h3>
@@ -151,11 +150,6 @@ function Resume(props) {
 					</ul>
 				</div>
 			</main>
-			<footer>
-				<div className="vol-div">
-					<h2>Vol. 1</h2>
-				</div>
-			</footer>
 		</div>
 	);
 }

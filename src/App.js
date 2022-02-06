@@ -6,6 +6,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 
 import Home from "./components/Home/Home";
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 import Welcome from "./components/Welcome/Welcome";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
@@ -33,7 +34,7 @@ function App(props) {
 		}
 	};
 	return (
-		<div className="app-container home-border">
+		<div className="home-border">
 			{pathname !== "/" && <Header />}
 			<Routes>
 				<Route path="/" element={<Welcome />} />
@@ -50,6 +51,7 @@ function App(props) {
 					element={<ProjectResults projects={projects} />}
 				/>
 			</Routes>
+			<Footer />
 		</div>
 	);
 }
