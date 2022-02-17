@@ -1,5 +1,4 @@
 import React, { useRef, useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 
 import "./Contact.css";
