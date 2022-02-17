@@ -60,7 +60,8 @@
 		justify-content: flex-start;
 		align-items: center;
 		border: 1px solid white;
-		margin: 10px;
+		margin: 50px;
+		margin-bottom: 100px;
 		padding: 10px;
 		border-radius: 5px;
 	}

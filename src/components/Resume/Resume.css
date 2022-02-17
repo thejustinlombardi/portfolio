@@ -3,13 +3,12 @@
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
-	margin: 10px;
 	animation: slidein 1s;
 }
 .resume-card {
 	object-fit: fill;
 	width: 50%;
-	margin: 10px 10px;
+
 	border: 2px solid black;
 	border-radius: 5px;
 }
