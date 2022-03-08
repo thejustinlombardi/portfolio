@@ -13,7 +13,7 @@ function Resume(props) {
 					target="_blank"
 					href="https://drive.google.com/file/d/19NUA-2rI1x7KMPGounpRafAg2N8oZzHh/view?usp=sharing"
 					rel="noreferrer">
-					<img src="https://i.imgur.com/fc0rbkV.png" alt="author" />
+					<img src="https://i.imgur.com/k1hFeiH.png" alt="author" />
 				</a>
 				<div>
 					<h2 className="resume-titles">Technical Skills</h2>
