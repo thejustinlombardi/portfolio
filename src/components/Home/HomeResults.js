@@ -32,7 +32,7 @@ function HomeResults(props) {
 				<Link to={`/home/resume`} className="issues-div resume-div">
 					<img
 						className="card-img"
-						src="https://i.imgur.com/k1hFeiH.png"
+						src="https://i.imgur.com/t2vPJdV.png"
 						alt="justin-lombardi-resume"
 					/>
 					<div className="card-text">

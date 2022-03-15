@@ -13,7 +13,7 @@ function Resume(props) {
 					target="_blank"
 					href="https://drive.google.com/file/d/19NUA-2rI1x7KMPGounpRafAg2N8oZzHh/view?usp=sharing"
 					rel="noreferrer">
-					<img src="https://i.imgur.com/k1hFeiH.png" alt="author" />
+					<img src="https://i.imgur.com/t2vPJdV.png" alt="author" />
 				</a>
 				<div>
 					<h2 className="resume-titles">Technical Skills</h2>
@@ -141,12 +141,12 @@ function Resume(props) {
 					<ul className="resume-list">
 						<li> Python </li>
 						<li> Java </li>
-						<li> C++ </li>
+						<li> Angular </li>
 						<li> SQL </li>
 						<li> PostgreSQL </li>
 						<li> Django </li>
 						<li> Git/Github </li>
-						<li> Postman</li>
+						<li> jQuery </li>
 					</ul>
 				</div>
 			</main>
